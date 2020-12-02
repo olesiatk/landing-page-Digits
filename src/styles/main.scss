@@ -2,10 +2,7 @@
 @import "fonts";
 @import "typography";
 
-html {
-  font-family: sans-serif;
-}
 body {
   background: $c-gray;
-  font-family: "Helyard";
+  font-family: "Helyard", sans-serif;
 }
