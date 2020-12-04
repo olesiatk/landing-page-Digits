@@ -1,0 +1,22 @@
+.button {
+  height: 48px;
+  background-color: $colorHover;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 48px;
+  border: 1px solid $colorHover;
+  @include hover (background-color, #fff);
+
+  &__text {
+    color: #fff;
+    line-height: 1;
+    transition: 0.3s ease;
+  }
+
+  &:hover &__text {
+    color: $colorHover;
+    transform: scale(1.1);
+  }
+}

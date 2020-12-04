@@ -7,22 +7,20 @@
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Digits</h1>
+    <h1 class="visually-hidden">Digits</h1>
     <!-- <script type="text/javascript" src="scripts/main.js"></script> -->
-    <header class="heder">
+    <div class="page__bg"></div>
+    <header class="header">
       <div class="header__left">
-        <div class="logo header__logo">
-          <a href="#" class="logo__link">
+        <div class="header__logo">
+          <a href="#" class="header__logo-link">
             <img
               src="images/logo.svg"
               alt="logo"
-              class="logo__img"
+              class="header__logo-img"
             >
           </a>
         </div>
-      </div>
-
-      <div class="header__center">
         <div class="nav header__nav">
           <ul class="nav__list">
             <li class="nav__item">
@@ -43,25 +41,25 @@
           </ul>
         </div>
       </div>
-
       <div class="header__right">
-        <a href="#" class="header__phone">+00 123 456 789</a>
-        <div class="buttom header__button">
-          <a href="#" class="button__text">Contact Us</a>
+        <a href="#" class="header__phone">+00&nbsp;123&nbsp;456&nbsp;789</a>
+        <div class="button header__button">
+          <a href="#" class="button__text">Contact&nbsp;Us</a>
         </div>
       </div>
     </header>
-
     <main class="main">
       <section class="home main__home">
         <div class="container home__container">
-          <h2 class="home__heading">Good design meets great user experience</h2>
+          <h2 class="home__heading">Good design meets <br> great user experience</h2>
           <p class="home__text">For everyone, from beginners to experts</p>
-          <div class="button home__button--1">
-            <a href="#" class="button__text">Buy Digits</a>
-          </div>
-          <div class="button home__button--2">
-            <a href="#" class="button__text">See the Features</a>
+          <div class="home__buttons">
+            <div class="button home__button--1">
+              <a href="#" class="button__text">Buy&nbsp;Digits</a>
+            </div>
+            <div class="button home__button--2">
+              <a href="#" class="button__text">See&nbsp;the&nbsp;Features</a>
+            </div>
           </div>
           <div class="home__pictute">
             <img
@@ -127,7 +125,7 @@
 
       <section class="products main__pruducts">
         <div class="container products__container">
-          <h2 class="products__heading">Whatever work you do, we're able to help</h2>
+          <h2 class="products__heading">Whatever work you do,<br> we're able to help</h2>
           <div class="products__main">
             <div class="products__left">
               <img
@@ -145,7 +143,7 @@
                 >
                 <div class="products__article">
                   <h3 class="products__article-heading">Design and Assets</h3>
-                  <p class="product__text">Make your brand stand out with pixel-perfect design crafted to perfection.</p>
+                  <p class="products__text">Make your brand stand out with pixel-perfect design crafted to perfection.</p>
                 </div>
               </div>
               <div class="products__part">
@@ -156,7 +154,7 @@
                 >
                 <div class="products__article">
                   <h3 class="products__article-heading">Easy Content</h3>
-                  <p class="product__text">Easy Content</p>
+                  <p class="products__text">Import your demos or build pages visually. Bonus: All images and illustrations included!</p>
                 </div>
               </div>
               <div class="products__part">
@@ -167,7 +165,7 @@
                 >
                 <div class="products__article">
                   <h3 class="products__article-heading">Fast and Reliable</h3>
-                  <p class="product__text">No heavy-weight plugins. No builders. No unneccesary file loading. Pure WordPress.</p>
+                  <p class="products__text">No heavy-weight plugins. No builders. No unneccesary file loading. Pure WordPress.</p>
                 </div>
               </div>
             </div>
@@ -178,9 +176,9 @@
       <section class="company main__company">
         <div class="container company__container">
           <h2 class="company__heading">Simplicity meets innovative design</h2>
-          <p class="company__text">It's really easy to start using Digits. Install the theme, choose a demo and start designing the future of your business!</p>
+          <p class="company__text">It's really easy to start using Digits. <br>Install the theme, choose a demo and <br> start designing the future of your business!</p>
           <div class="button company__button">
-            <a href="" class="button__text">Buy Digits</a>
+            <a href="" class="button__text">Buy&nbsp;Digits</a>
           </div>
           <img
             src="images/Graphic-3.png"
@@ -207,7 +205,7 @@
               <a href="" class="blog__email">tempy.club</a>
             </article>
             <article class="blog__article">
-              <p class="blog__text">Really easy to use and customize. easy to understand. Darinka helped me with my site! She answers very quickly, a good service! Thank you very much!</p>
+              <p class="blog__text">Really easy to use and customize. Easy to understand. Darinka helped me with my site! She answers very quickly, a good service! Thank you very much!</p>
               <div class="blog__photo">
                 <img
                   src="images/foto-2.png"
@@ -241,7 +239,7 @@
           </div>
           <div class="pricing__right">
             <div class="button pricing__button">
-              <a href="#" class="button__text">Get in touch now</a>
+              <a href="#" class="button__text">Get&nbsp;in&nbsp;touch&nbsp;now</a>
             </div>
             <div class="pricing__text-small">Or, take a peek inside our design studio</div>
           </div>
@@ -251,7 +249,11 @@
     <footer class="footer">
       <div class="footer__top">
         <article class="footer__general">
-          <img src="images/logo.svg" alt="logo" class="footer__logo">
+          <img
+            src="images/logo.svg"
+            alt="logo"
+            class="footer__logo"
+          >
           <p class="footer__text">Digits is a website template built to work seamlesly with the WordPress block editor to create beautifully designed pages in minutes.</p>
         </article>
         <acricle class="footer__pages">
@@ -279,46 +281,46 @@
           </nav>
         </article>
         <article class="footer__resources">
-        <h3 class="footer__heading">Resources</h3>
-        <div class="footer__icons">
-          <a href="https://www.facebook.com/" class="footer__icon-link">
-            <img
-              src="images/ic-1.svg"
-              alt="facebook"
-              class="footer__icon"
-            >
-          </a>
-          <a href="https://www.instagram.com/" class="footer__icon-link">
-            <img
-              src="images/ic-2.svg"
-              alt="instagram"
-              class="footer__icon"
-            >
-          </a>
-          <a href="https://twitter.com/" class="footer__icon-link">
-            <img
-              src="images/ic-3.svg"
-              alt="twitter"
-              class="footer__icon"
-            >
-          </a>
-          <a href="https://dribbble.com/" class="footer__icon-link">
-            <img
-              src="images/ic-4.svg"
-              alt="dribbble"
-              class="footer__icon"
-            >
-          </a>
-          <a href="https://tinder.com/" class="footer__icon-link">
-            <img
-              src="images/ic-5.svg"
-              alt="tinder"
-              class="footer__icon"
-            >
-          </a>
-        </div>
-        <a href="#" class="footer__link">Dawnload now</a>
-        <a href="#" class="footer__link">Documentation</a>
+          <h3 class="footer__heading">Resources</h3>
+          <div class="footer__icons">
+            <a href="https://www.facebook.com/" class="footer__icon-link">
+              <img
+                src="images/ic-1.svg"
+                alt="facebook"
+                class="footer__icon"
+              >
+            </a>
+            <a href="https://www.instagram.com/" class="footer__icon-link">
+              <img
+                src="images/ic-2.svg"
+                alt="instagram"
+                class="footer__icon"
+              >
+            </a>
+            <a href="https://twitter.com/" class="footer__icon-link">
+              <img
+                src="images/ic-3.svg"
+                alt="twitter"
+                class="footer__icon"
+              >
+            </a>
+            <a href="https://dribbble.com/" class="footer__icon-link">
+              <img
+                src="images/ic-4.svg"
+                alt="dribbble"
+                class="footer__icon"
+              >
+            </a>
+            <a href="https://tinder.com/" class="footer__icon-link">
+              <img
+                src="images/ic-5.svg"
+                alt="tinder"
+                class="footer__icon"
+              >
+            </a>
+          </div>
+          <a href="#" class="footer__link">Dawnload now</a>
+          <a href="#" class="footer__link">Documentation</a>
         </article>
       </div>
       <div class="footer__bottom">
