@@ -7,7 +7,8 @@
   align-items: center;
   padding: 0 48px;
   border: 1px solid $colorHover;
-  @include hover (background-color, #fff);
+  @include hover (background-color, #fed892);
+  @include hover (border-color, #fed892);
 
   &__text {
     color: #fff;
@@ -16,7 +17,7 @@
   }
 
   &:hover &__text {
-    color: $colorHover;
+    color: $colorHeading;
     transform: scale(1.1);
   }
 }

@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  // background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
   z-index: 1;
 
   &__container.container {
@@ -31,8 +30,8 @@
   &__button--2.button {
     background-color: #fff;
     border: 1px solid #fff;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
-    @include hover (border, 1px solid $colorHover);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    @include hover (border, 1px solid #fed892);
 
     & .button__text {
       color: $colorText;
