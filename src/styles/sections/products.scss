@@ -4,13 +4,14 @@
   &__main {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     align-self: flex-start;
   }
 
   &__left {
     align-self: flex-start;
+    margin-right: 160px;
   }
 
   &__right {

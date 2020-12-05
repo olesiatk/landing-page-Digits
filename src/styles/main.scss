@@ -1,12 +1,15 @@
 @import "utils";
 @import "fonts";
 @import "typography";
-@import "sections/header.scss";
-@import "sections/home.scss";
-@import "sections/products.scss";
-@import "sections/company.scss";
-@import "blocks/button.scss";
-@import "blocks/nav.scss";
+@import "sections/header";
+@import "sections/home";
+@import "sections/products";
+@import "sections/company";
+@import "sections/blog";
+@import "sections/pricing";
+@import "sections/footer";
+@import "blocks/button";
+@import "blocks/nav";
 
 * {
   box-sizing: border-box;
@@ -48,5 +51,5 @@ a {
 }
 
 .container {
-  margin: 0 200px;
+  margin: 0 210px;
 }

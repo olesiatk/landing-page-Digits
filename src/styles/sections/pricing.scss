@@ -1,0 +1,40 @@
+.pricing {
+  padding: 88px 0;
+  background-color: $colorHover;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__heading {
+    text-align: left;
+    font-weight: 500;;
+    color: #fff;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__button.button {
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    @include hover (border, 1px solid #fed892);
+
+    & .button__text {
+      color: $colorText;
+      padding: 0 25px;
+    }
+  }
+
+  &__text-small {
+    margin-top: 19px;
+    color: #dfe0eb;
+    font-size: 16px;
+  }
+}
