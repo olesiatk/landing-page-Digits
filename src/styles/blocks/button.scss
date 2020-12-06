@@ -10,10 +10,18 @@
   @include hover (background-color, #fed892);
   @include hover (border-color, #fed892);
 
+  @media (max-width: 1200px) {
+    padding: 0 36px;
+  }
+
   &__text {
     color: #fff;
     line-height: 1;
     transition: 0.3s ease;
+
+    @media (max-width: 1200px) {
+      font-size: 16px;
+    }
   }
 
   &:hover &__text {

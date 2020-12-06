@@ -9,6 +9,18 @@ h2 {
   color: $colorHeading;
   text-align: center;
   margin: 0;
+
+  @media (min-width: 1920px) {
+    font-size: 54px;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 36px;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 28px;
+  }
 }
 
 h3 {
@@ -16,6 +28,10 @@ h3 {
   font-size: 22px;
   line-height: 1.25;
   color: $colorHeading;
+
+  @media (max-width: 700px) {
+    font-size: 18px;
+  }
 }
 
 p {
@@ -23,4 +39,12 @@ p {
   font-size: 18px;
   line-height: 1.5;
   color: $colorText;
+
+  @media (max-width: 1200px) {
+    font-size: 16px;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 14px;
+  }
 }

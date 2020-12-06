@@ -45,6 +45,7 @@ a {
   position: absolute;
   width: 100%;
   height: 100vh;
+  max-height: 1440px;
   background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%,
   #f2f9ff 100%);
   z-index: 0;
@@ -52,4 +53,20 @@ a {
 
 .container {
   margin: 0 210px;
+
+  @media (min-width: 1920px) {
+    margin: 0 310px;
+  }
+
+  @media (max-width: 1400px) {
+    margin: 0 110px;
+  }
+
+  @media (max-width: 1200px) {
+    margin: 0 80px;
+  }
+
+  @media (max-width: 720px) {
+    margin: 0 30px;
+  }
 }

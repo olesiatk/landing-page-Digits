@@ -6,6 +6,10 @@
     display: flex;
     width: 400px;
     justify-content: space-between;
+
+    @media (min-width: 1920px) {
+      width: 500px;
+    }
   }
 
   &__item {
@@ -18,5 +22,9 @@
     font-size: 16px;
     color: $colorHeading;
     line-height: 48px;
+
+    @media (min-width: 1920px) {
+      font-size: 18px;
+    }
   }
 }
