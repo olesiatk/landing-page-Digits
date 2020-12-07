@@ -10,9 +10,14 @@
     padding: 60px 0;
   }
 
-  &__container {
+  &__container.container {
     display: flex;
     justify-content: space-between;
+
+    @media (min-width: 2000px) {
+      width: 1600px;
+      margin: 0 auto;
+    }
 
     @media (max-width: 1200px) {
       flex-direction: column;

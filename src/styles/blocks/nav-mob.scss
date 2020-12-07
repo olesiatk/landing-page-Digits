@@ -87,7 +87,7 @@
       height: 100%;
       background-color: $colorHover;
       overflow-y: auto;
-      right: -100%;
+      right: -110%;
     }
 
     & .nav__list {
@@ -95,9 +95,9 @@
       align-items: center;
       width: 320px;
 
-      // @media (max-width: 720px) {
-      //   width: 200px;
-      // }
+      @media (max-width: 720px) {
+        width: 100vw;
+      }
     }
 
     & .nav__item {
@@ -113,7 +113,7 @@
       font-size: 18px;
       transition: 0.3s ease;
       width: 100%;
-      padding: 0 48px;
+      padding: 0;
     }
 
     & .nav__item:hover .nav__link {

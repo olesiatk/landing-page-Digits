@@ -26,6 +26,11 @@
     text-align: center;
     margin: 40px auto;
 
+    @media (min-width: 2000px) {
+      font-size: 22px;
+      line-height: 1.8;
+    }
+
     @media (max-width: 1200px) {
       margin: 65px auto;
     }

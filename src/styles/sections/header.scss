@@ -7,8 +7,13 @@
   background-color: #fff;
   z-index: 1;
 
+  @media (min-width: 2000px) {
+    justify-content: center;
+    gap: 0;
+  }
+
   @media (max-width: 1400px) {
-    padding: 22px 110px;
+    padding: 0 100px;
   }
 
   @media (max-width: 1200px) {
@@ -24,6 +29,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (min-width: 2000px) {
+      width: 800px;
+      margin: 0;
+    }
   }
 
   &__logo-img {
@@ -31,7 +41,7 @@
     margin-right: 85px;
 
     @media (max-width: 1400px) {
-      margin-right: 45px;
+      margin-right: 55px;
     }
 
     @media (max-width: 1200px) {
@@ -54,6 +64,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (min-width: 2000px) {
+      justify-content: flex-end;
+      gap: 100px;
+      width: 800px;
+      margin: 0;
+    }
 
     @media (max-width: 1200px) {
       display: none;

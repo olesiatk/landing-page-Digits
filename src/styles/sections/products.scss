@@ -56,14 +56,14 @@
     top: 160%;
     left: 50%;
     transform: rotate(45deg);
-    animation: figure 1.8s ease 1.5s both;
+    animation: figure 1.8s ease 1.5s both 5;
   }
 
   &__svg-2 {
     position: absolute;
     top: 60%;
     left: 90%;
-    animation: figure 1.8s ease 1.5s both;
+    animation: figure 1.8s ease 1.5s both 5;
   }
 
   &__svg-3 {
@@ -71,7 +71,7 @@
     top: 100%;
     left: -70%;
     transform: scale(0.8);
-    animation: figure 1.8s ease 1.5s both;
+    animation: figure 1.8s ease 1.5s both 5;
   }
 
   &__svg-4 {
