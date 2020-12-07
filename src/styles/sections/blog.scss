@@ -9,6 +9,10 @@
     padding: 80px 0;
   }
 
+  @media (max-width: 720px) {
+    padding: 60px 0;
+  }
+
   &__respond {
     margin: 55px auto;
     display: grid;
@@ -45,6 +49,11 @@
       justify-content: space-between;
       gap: 70px;
     }
+
+    @media (max-width: 700px) {
+      padding: 10px;
+      gap: 30px;
+    }
   }
 
   &__person {
@@ -65,7 +74,12 @@
     @media (max-width: 1200px) {
       line-height: 1.5;
       height: 100px;
-      margin-bottom: 0;
+      margin: 0;
+    }
+
+    @media (max-width: 700px) {
+      line-height: 1.5;
+      height: auto;
       margin: 0;
     }
   }
@@ -78,7 +92,7 @@
       line-height: 1.5;
     }
 
-    @media (max-width: 1400px) {
+    @media (max-width: 1200px) {
       margin: 0 auto;
     }
   }

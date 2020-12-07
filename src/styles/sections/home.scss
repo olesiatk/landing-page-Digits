@@ -7,10 +7,6 @@
   z-index: 1;
   margin-bottom: 10px;
 
-  @media (min-width: 1920px) {
-    padding: 200px 0 140px;
-  }
-
   @media (max-width: 1200px) {
     padding: 20px 0 60px;
   }
@@ -59,6 +55,7 @@
 
     @media (max-width: 700px) {
       flex-direction: column;
+      margin-bottom: 0;
     }
   }
 
@@ -69,11 +66,15 @@
     @include hover (border, 1px solid #fed892);
 
     @media (max-width: 700px) {
-      display: none;
+      visibility: hidden;
     }
 
     & .button__text {
       color: $colorText;
+
+      @media (max-width: 700px) {
+        visibility: visible;
+      }
     }
   }
 

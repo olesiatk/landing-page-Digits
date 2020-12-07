@@ -10,7 +10,7 @@
   }
 
   @media (max-width: 700px) {
-    padding: 40px 0 40px;
+    padding: 40px 0;
   }
 
   &__main {
@@ -19,6 +19,10 @@
     justify-content: center;
     align-items: center;
     align-self: flex-start;
+
+    @media (max-width: 700px) {
+      margin-top: 60px;
+    }
   }
 
   &__left {
