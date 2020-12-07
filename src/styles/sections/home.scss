@@ -69,7 +69,7 @@
     background-color: #fff;
     border: 1px solid #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    @include hover (border, 1px solid #fed892);
+    @include hover (border, 1px solid $colorHover);
 
     @media (max-width: 720px) {
       visibility: hidden;

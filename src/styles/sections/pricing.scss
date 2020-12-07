@@ -41,11 +41,13 @@
     background-color: #fff;
     border: 1px solid #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    @include hover (border, 1px solid #fed892);
+    background-image: url(.\..\images\icon-send.svg);
+    background-repeat: no-repeat;
+    background-position: 24px center;
 
     & .button__text {
       color: $colorText;
-      padding: 0 25px;
+      padding: 0 64px 0 80px;
     }
   }
 

@@ -16,7 +16,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #facfca;
+    background-color: #fff;
 
     display: none;
 
@@ -31,26 +31,26 @@
     position: absolute;
     width: 30px;
     height: 4px;
-    background-color: #fff;
+    background-color: $colorText;
   }
 
   &__lines {
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
-    transition: 0.3s;
+    transition: 0.3s ease;
   }
 
   &__lines::before {
     content: "";
     top: -8px;
-    transition: 0.3s;
+    transition: 0.3s ease;
   }
 
   &__lines::after {
     content: "";
     top: 8px;
-    transition: 0.3s;
+    transition: 0.3s ease;
   }
 
   &__btn:hover &__lines,
@@ -76,6 +76,7 @@
 
   &__nav {
     display: none;
+    transition: 0.5s ease;
 
     @media (max-width: 1200px) {
       padding-top: 80px;
@@ -94,9 +95,9 @@
       align-items: center;
       width: 320px;
 
-      @media (max-width: 720px) {
-        width: 200px;
-      }
+      // @media (max-width: 720px) {
+      //   width: 200px;
+      // }
     }
 
     & .nav__item {
@@ -107,8 +108,14 @@
     }
 
     .nav__link {
+      line-height: 48px;
       color: #fff;
       font-size: 18px;
+      transition: 0.3s ease;
+      width: 100%;
+      padding: 0 48px;
+
+
     }
 
     & .nav__item:hover .nav__link {
