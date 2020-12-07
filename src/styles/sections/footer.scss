@@ -91,7 +91,7 @@
     background-color: #f0f2f6;
     box-shadow: 0 2px 4px rgba(240, 242, 246, 0.05);
     border: 1px solid #f0f2f6;
-    @include hover (border, 1px solid $colorHover)
+    @include hover (border, 1px solid $colorHover);
 
     & .button__text {
       color: $colorText;

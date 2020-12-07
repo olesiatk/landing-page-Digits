@@ -31,10 +31,6 @@
     }
   }
 
-  &__left:hover &__svg-5 {
-    animation: opacity 1s ease 0.3s both;
-  }
-
   &__left {
     position: relative;
     align-self: flex-start;
