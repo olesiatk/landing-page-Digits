@@ -59,17 +59,17 @@
     background-color: $colorHover;
   }
 
-  &__toggle:checked ~ &__btn > &__lines {
+  &__toggle--active ~ &__btn > &__lines {
     width: 0;
     left: 10px;
   }
 
-  &__toggle:checked ~ &__btn > &__lines::before {
+  &__toggle--active ~ &__btn > &__lines::before {
     top: 0;
     transform: rotate(-45deg);
   }
 
-  &__toggle:checked ~ &__btn > &__lines::after {
+  &__toggle--active ~ &__btn > &__lines::after {
     top: 0;
     transform: rotate(45deg);
   }
@@ -121,7 +121,7 @@
     }
   }
 
-  &__toggle:checked ~ &__nav {
+  &__toggle--active ~ &__nav {
     right: 0;
   }
 

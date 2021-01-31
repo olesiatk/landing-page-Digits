@@ -1,34 +1,21 @@
 'use strict';
 
-// function burgerMenu(selector) {
-//   let menu = $(selector);
-//   let button = menu.find('.nav-mob__btn');
-//   let links = menu.find('.nav-mob__link');
-//   let overlay = menu.find('.nav-mob__overlay');
+const button = document.querySelector('.nav-mob__toggle');
+const menuMobLinks = document.querySelector('.nav__list');
 
-//   button.on('click', (e) => {
-//     e.preventDefault();
-//     toggleMenu();
-//   });
+menuMobLinks.addEventListener('click', (event) => {
+  toggleMenu();
+});
 
-//   links.on('click', () => toggleMenu());
-//   overlay.on('click', () => toggleMenu());
+button.addEventListener('click', (event) => {
+  event.preventDefault();
+  toggleMenu();
+});
 
-//   function toggleMenu() {
-//     menu.toggleClass('nav-mob--active');
-
-//     if (menu.hasClass('nav-mob--active')) {
-//       $('body').css('overflow', 'hidden');
-//     } else {
-//       $('body').css('overflow', 'visible');
-//     }
-//   }
-// }
-// burgerMenu('.nav-mob');
-
-// const menu = document.querySelector('.nav-mob');
-// const toggler = document.querySelector('.nav-mob__btn');
-// toggler.onclick = function toggleSidebar() {
-//   menu.classList.toggle('nav-mob--active');
-//   toggler.classList.toggle('nav-mob__btn--active');
-// }
+function toggleMenu() {
+  if (button.classList.contains('nav-mob__toggle--active')) {
+    button.classList.remove('nav-mob__toggle--active');
+  } else {
+    button.classList.add('nav-mob__toggle--active');
+  }
+}
