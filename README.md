@@ -5,7 +5,7 @@ Landing DIGITS
 
 
 
-Technologies: SCSS, HTML, BEM
+Technologies: SCSS, HTML, BEM, JS
 
 Implemented landing page according to [Figma design](https://www.figma.com/file/yM9iS3NKeGOII5Bl7LOooG/Digits-Demo-%26-Preview-(Copy)?node-id=0%3A1)
 
